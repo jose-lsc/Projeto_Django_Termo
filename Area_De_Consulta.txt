@@ -1,0 +1,32 @@
+Para testar todo o django
+-->pip install coverage  
+--> coverage run manage.py test
+--> coverage report -m
+--> pip install pytest-django
+
+
+Para testar o projeto
+--> coverage run --source=polls  manage.py test polls
+--> coverage report -m
+
+instalar debug toolbar caso precise
+
+--> pip install django-debug-toolbar
+
+Precisar instalar
+pip install dj-database-url
+pip install python-decouple
+pip install psycopg2-binary
+
+Maquina Virtual
+rodar imagem: podman run -it (nome da imagem)
+rodar imagem: podman run -it (nome da imagem) bash
+
+
+Atualizar imagem
+podman pull (imagem)
+
+
+
+
+
